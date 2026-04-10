@@ -9,5 +9,4 @@ for(let j=0;j<botoes.lenght;j++){
     
     botoes[i}.classList.add("ativo");
 }
-console.log(
   }
