@@ -53,17 +53,6 @@ body {
 }
 .ativo{
     background-color: var(--botao-ativo)
-        border-bottom: 4px solid var(--verde)
-}
-@media screen and (min-width: 768px){
-    .botoes{
-        display:flex;
-    }
-    .botao:first-child {
-        border-radius: 40px 0 0;
-    }
-.botao:last-child{
-    border-radius: 0 40px 0 0;
 }
     .botoes {
         display: block;
@@ -87,4 +76,16 @@ text-align: center;
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color:var(--verde);
+    text-transform: uppercase;
 }
+        border-bottom: 4px solid var(--verde)
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display:flex;
+    }
+    .botao:first-child {
+        border-radius: 40px 0 0;
+    }
+.botao:last-child{
+    border-radius: 0 40px 0 0;
